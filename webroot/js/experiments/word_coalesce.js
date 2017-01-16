@@ -9,11 +9,14 @@ var wordCoalesce = {
     initialState: null,
 
     init: function () {
+        // Remember initial state for reset button
         this.initialState = $('#word-coalesce').html();
         $('#reset').click(function (event) {
             event.preventDefault();
             wordCoalesce.reset();
         });
+
+        // Break up all words into individual letters
         var words = $('#word-coalesce a');
         words.each(function () {
             var link = $(this);
@@ -24,16 +27,13 @@ var wordCoalesce = {
                 link.append('<span>' + letters[i] + '</span>');
             }
         });
+
         words.click(function (event) {
             event.preventDefault();
             var clickedWord = $(this);
 
             // Break up all receiver letters
             var receiverLetters = clickedWord.find('span');
-            var receiverLettersString = [];
-            receiverLetters.each(function () {
-                receiverLettersString.push($(this).html());
-            });
 
             // Transform all other words into individual letters
             clickedWord.siblings().each(function () {
@@ -58,7 +58,7 @@ var wordCoalesce = {
                     var senderLetter = $(this);
 
                     // Fade out letters that will not be moved
-                    if (receiverLettersString.indexOf(senderLetter.html()) == -1) {
+                    if (clickedWord.data('word').indexOf(senderLetter.html()) == -1) {
                         senderLetter.animate({
                             opacity: 0
                         }, 2000);
