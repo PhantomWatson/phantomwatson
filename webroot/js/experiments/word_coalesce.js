@@ -1,13 +1,13 @@
 /**
- * A test of the following effect:
+ * An experiment that produces the following effect:
  * User clicks on a link and the letters in all sibling links
  * float and merge into the clicked link
  *
- * @type {{init: wordCoalesceTest.init}}
+ * @type {{init: wordCoalesce.init}}
  */
 var wordCoalesce = {
     init: function () {
-        var words = $('#test-words a');
+        var words = $('#word-coalesce a');
         words.each(function () {
             var link = $(this);
             var word = link.html();
@@ -29,7 +29,7 @@ var wordCoalesce = {
             });
 
             // Transform all other words into individual letters
-            $('#test-words a[data-word!=' + $(this).data('word') + ']').each(function () {
+            $('#word-coalesce a[data-word!="' + $(this).data('word') + '"]').each(function () {
                 var senderWord = $(this);
                 var senderLetters = senderWord.find('span');
 

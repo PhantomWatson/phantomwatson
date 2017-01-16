@@ -6898,7 +6898,11 @@ body {
   padding-bottom: 20px;
 }
 #content {
+  color: #ccc;
   padding: 30px;
+}
+#content h1 {
+  font-size: 175%;
 }
 section {
   padding-top: 80px;

@@ -1,6 +1,14 @@
 <?php $this->Html->css('experiments/word_coalesce', ['block' => 'css']); ?>
 <?php $this->Html->script('experiments/word_coalesce.js', ['block' => 'script_bottom']); ?>
 
+<h1>
+    Experiment #1: Word Coalesce
+</h1>
+
+<p>
+    Click on any of the following words to see adjacent matching letters merge into it.
+</p>
+
 <?php
     $quote =
         'As the Knight sang the last words of the ballad, he gathered up the reins, and turned his horse\'s ' .
