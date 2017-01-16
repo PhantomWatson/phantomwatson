@@ -81,15 +81,6 @@ section {
     }
 }
 
-.portfolio-item {
-    img:hover {
-        cursor: pointer;
-        transform: scale(1.1, 1.1);
-        transition-duration: 0.3s;
-        z-index: 1;
-    }
-}
-
 #video-sec {
     color: #fff;
     text-align: center;
@@ -135,5 +126,51 @@ footer {
     a:hover {
         color: #fff;
         text-decoration: none;
+    }
+}
+
+#sites {
+    > .container {
+        > .row {
+            > div {
+                > div {
+                    background-color: #333;
+                    border-radius: 10px;
+                    margin-bottom: 15px;
+                    padding: 15px;
+                }
+            }
+
+            &:nth-child(even) {
+                > div {
+                    > div {
+                        background-color: #222;
+                    }
+                }
+            }
+        }
+    }
+
+    a {
+        font-size: 160%;
+        font-weight: bold;
+        letter-spacing: 2px;
+
+        &:hover,
+        &:focus {
+            img {
+                cursor: pointer;
+                transform: scale(1.05, 1.05);
+                transition-duration: 0.3s;
+                box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+                z-index: 1;
+            }
+        }
+    }
+
+    img {
+        cursor: default;
+        display: block;
+        margin-bottom: 15px;
     }
 }
