@@ -6894,6 +6894,11 @@ a.list-group-item-danger.active:focus {
 }
 body {
   font-family: 'Roboto', sans-serif;
+  padding-top: 52px;
+  padding-bottom: 20px;
+}
+#content {
+  padding: 20px 0;
 }
 section {
   padding-top: 80px;
@@ -6926,6 +6931,7 @@ section {
   padding: 0;
   background-size: contain;
   min-height: 600px;
+  margin-top: -20px;
 }
 #home .overlay {
   padding-top: 90px;

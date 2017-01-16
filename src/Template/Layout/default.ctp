@@ -72,7 +72,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </div>
 </div>
 
-<?= $this->fetch('content') ?>
+<div id="content">
+    <?= $this->fetch('content') ?>
+</div>
 
 <footer>
     &copy; <?= date('Y') ?> Graham Watson
