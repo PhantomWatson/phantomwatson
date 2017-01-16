@@ -1,0 +1,12 @@
+#word-coalesce {
+  position: relative;
+}
+#word-coalesce a {
+  display: inline-block;
+  z-index: 1;
+}
+#word-coalesce > span {
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+}
