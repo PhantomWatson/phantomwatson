@@ -41,9 +41,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/vivaldi-logo.png" alt="" class="img-responsive"/>
-            </a>
         </div>
         <div class="navbar-collapse collapse navbar-right scroll-me">
             <ul class="nav navbar-nav ">
