@@ -29,7 +29,7 @@ var wordCoalesce = {
             });
 
             // Transform all other words into individual letters
-            $('#word-coalesce a[data-word!="' + $(this).data('word') + '"]').each(function () {
+            clickedWord.siblings().each(function () {
                 var senderWord = $(this);
                 var senderLetters = senderWord.find('span');
 
