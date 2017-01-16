@@ -1,14 +1,7 @@
 @import "../bootstrap/less/bootstrap.less";
 @import "variables.less";
 @import "bootswatch.less";
-
-
-/*================================
-    GENERAL STYLES
-==================================*/
-
 @import url(http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab);
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -27,28 +20,25 @@ section {
 .pad-bottom {
     padding-bottom: 60px;
 }
-/*================================
-    NAVBAR STYLES
-==================================*/
+
 .navbar-default {
     background-color: rgb(35, 133, 161);
     border-color: transparent;
     color: #fff;
-}
 
-    .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover {
+    .navbar-nav > li > a,
+    .navbar-nav > li > a:hover {
         color: #fff;
     }
+
+    .navbar-toggle .icon-bar {
+        background-color:#fff;
+    }
+}
 
 .navbar-brand {
     padding: 0px;
 }
-.navbar-default .navbar-toggle .icon-bar {
-    background-color:#fff;
-}
-/*================================
-    HOME SECTION STYLES
-==================================*/
 
 #home {
     background: url(/img/fireball.jpg) no-repeat center center;
@@ -75,78 +65,63 @@ section {
     }
 }
 
-/*======================================
-    PARALLAX LIKE / STATS SECTION STYLES
-=========================================*/
-
 .parallax-like {
-    background: url(../img/stats.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
-}
 
-    .parallax-like .overlay {
+    .overlay {
         min-height: 200px;
         background: rgba(35, 133, 161,0.9);
         font-size: 40px;
         padding-bottom: 60px;
         padding-top: 60px;
     }
-
-/*================================
-    PORTFOLIO / WORK SECTION STYLES
-==================================*/
-.portfolio-item img:hover { /* POSTFOLIO IMAGE BIG ON HOVER */
-    cursor: pointer;
-    -webkit-transform: scale(1.1, 1.1);
-    -ms-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
-    transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s; /* Safari */
-    z-index: 1;
 }
 
-/*================================
-    VIDEO SECTION STYLES
-==================================*/
+.portfolio-item {
+    img:hover {
+        cursor: pointer;
+        transform: scale(1.1, 1.1);
+        transition-duration: 0.3s;
+        z-index: 1;
+    }
+}
+
 #video-sec {
     color: #fff;
     text-align: center;
-}
 
-    #video-sec .overlay {
+    .overlay {
         background-color: rgba(0, 0, 0, 0.85);
         min-height: 300px;
         color: #fff;
     }
 
-    #video-sec h1 {
+    h1 {
         padding-top: 80px;
         font-size: 50px;
         font-weight: 900;
         padding-bottom: 30px;
     }
-/*================================
-    CLIENTS SECTION STYLES
-==================================*/
+}
+
 #clients {
     background-color:#f4f4f4;
     padding-bottom:50px;
     padding-top:50px;
-}
-    #clients img {
+
+    img {
         opacity:0.5;
         cursor:pointer;
-    }
-        #clients img:hover {
+
+        &:hover {
             opacity:1;
         }
-/*================================
-    FOOTER SECTION STYLES
-==================================*/
+    }
+}
 
 footer {
     padding: 20px;
@@ -155,9 +130,10 @@ footer {
     font-weight: 900;
     background-color: rgb(35, 133, 161);
     color: #fff;
-}
 
-    footer a, footer a:hover {
+    a,
+    a:hover {
         color: #fff;
         text-decoration: none;
     }
+}

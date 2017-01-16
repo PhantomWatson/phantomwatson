@@ -6892,9 +6892,6 @@ a.list-group-item-danger.active:focus {
 .jumbotron h6 {
   color: #fff;
 }
-/*================================
-    GENERAL STYLES
-==================================*/
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -6909,9 +6906,6 @@ section {
 .pad-bottom {
   padding-bottom: 60px;
 }
-/*================================
-    NAVBAR STYLES
-==================================*/
 .navbar-default {
   background-color: #2385a1;
   border-color: transparent;
@@ -6921,15 +6915,12 @@ section {
 .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
 }
-.navbar-brand {
-  padding: 0px;
-}
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-/*================================
-    HOME SECTION STYLES
-==================================*/
+.navbar-brand {
+  padding: 0px;
+}
 #home {
   background: url(/img/fireball.jpg) no-repeat center center;
   padding: 0;
@@ -6951,12 +6942,7 @@ section {
 #home h2 {
   font-size: 42px;
 }
-/*======================================
-    PARALLAX LIKE / STATS SECTION STYLES
-=========================================*/
 .parallax-like {
-  background: url(../img/stats.jpg) no-repeat center center;
-  /* DEFINE IMAGE PATH CAREFULLY*/
   padding: 0;
   -webkit-background-size: cover;
   background-size: cover;
@@ -6970,23 +6956,12 @@ section {
   padding-bottom: 60px;
   padding-top: 60px;
 }
-/*================================
-    PORTFOLIO / WORK SECTION STYLES
-==================================*/
 .portfolio-item img:hover {
-  /* POSTFOLIO IMAGE BIG ON HOVER */
   cursor: pointer;
-  -webkit-transform: scale(1.1, 1.1);
-  -ms-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
   transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  /* Safari */
   z-index: 1;
 }
-/*================================
-    VIDEO SECTION STYLES
-==================================*/
 #video-sec {
   color: #fff;
   text-align: center;
@@ -7002,9 +6977,6 @@ section {
   font-weight: 900;
   padding-bottom: 30px;
 }
-/*================================
-    CLIENTS SECTION STYLES
-==================================*/
 #clients {
   background-color: #f4f4f4;
   padding-bottom: 50px;
@@ -7017,9 +6989,6 @@ section {
 #clients img:hover {
   opacity: 1;
 }
-/*================================
-    FOOTER SECTION STYLES
-==================================*/
 footer {
   padding: 20px;
   font-size: 15px;
