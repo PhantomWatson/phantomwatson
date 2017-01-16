@@ -8,7 +8,7 @@
                 <h2>
                     Professional stuff-doer
                 </h2>
-                <p class="p-cls">
+                <p>
                     web dev / kung fu / fire / bounty hunting / body suspension / emcee
                 </p>
             </div>

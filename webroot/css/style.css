@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6895,7 +6895,6 @@ a.list-group-item-danger.active:focus {
 /*================================
     GENERAL STYLES
 ==================================*/
-/* GOOGLE FREE FONTS */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -6931,16 +6930,12 @@ section {
 /*================================
     HOME SECTION STYLES
 ==================================*/
-/*STYLE OF BACKGROUND IMAGE*/
 #home {
   background: url(/img/fireball.jpg) no-repeat center center;
   padding: 0;
-  -webkit-background-size: contain;
   background-size: contain;
-  -moz-background-size: contain;
   min-height: 600px;
 }
-/*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
 #home .overlay {
   padding-top: 90px;
   background-color: rgba(35, 35, 35, 0.75);
@@ -6948,16 +6943,13 @@ section {
   color: #fff;
 }
 #home h1 {
-  padding-top: 80px;
-  font-weight: 900;
-  font-size: 100px;
-  font-family: 'Browallia New';
+  padding-top: 150px;
+  font-weight: normal;
+  font-size: 60px;
+  font-family: 'Roboto Slab';
 }
-/*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
-/*CLASS TO FORMAT TEXT*/
-.p-cls {
-  padding-top: 30px;
-  padding-bottom: 40px;
+#home h2 {
+  font-size: 42px;
 }
 /*======================================
     PARALLAX LIKE / STATS SECTION STYLES
