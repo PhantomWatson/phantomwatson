@@ -7,6 +7,9 @@
 
 <p>
     Click on any of the following words to see adjacent matching letters merge into it.
+    <button id="reset" class="btn btn-default btn-sm">
+        Reset
+    </button>
 </p>
 
 <?php

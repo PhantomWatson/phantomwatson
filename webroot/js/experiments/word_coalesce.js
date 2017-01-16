@@ -6,7 +6,14 @@
  * @type {{init: wordCoalesce.init}}
  */
 var wordCoalesce = {
+    initialState: null,
+
     init: function () {
+        this.initialState = $('#word-coalesce').html();
+        $('#reset').click(function (event) {
+            event.preventDefault();
+            wordCoalesce.reset();
+        });
         var words = $('#word-coalesce a');
         words.each(function () {
             var link = $(this);
@@ -81,5 +88,10 @@ var wordCoalesce = {
                 });
             });
         });
+    },
+
+    reset: function () {
+        $('#word-coalesce').html(this.initialState);
+        this.init();
     }
 };
