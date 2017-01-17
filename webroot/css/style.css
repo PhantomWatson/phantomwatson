@@ -7170,3 +7170,6 @@ fieldset[disabled] #source button.focus {
   list-style-type: none;
   margin-bottom: 15px;
 }
+a.back {
+  padding: 0;
+}

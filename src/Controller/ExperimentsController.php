@@ -7,6 +7,11 @@ use Cake\View\Exception\MissingTemplateException;
 
 class ExperimentsController extends AppController
 {
+    public function index()
+    {
+        $this->set('pageTitle', 'Experiments');
+    }
+
     public function wordCoalesce()
     {
         $this->set('pageTitle', 'Experiment #1: Word Coalesce');

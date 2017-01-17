@@ -1,6 +1,15 @@
 <?php $this->Html->css('experiments/word_coalesce', ['block' => 'css']); ?>
 <?php $this->Html->script('experiments/word_coalesce.js', ['block' => 'script_bottom']); ?>
 
+<?= $this->Html->link(
+    '<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Experiments',
+    ['action' => 'index'],
+    [
+        'class' => 'btn btn-link btn-lg back',
+        'escape' => false
+    ]
+) ?>
+
 <h1>
     Experiment #1: Word Coalesce
 </h1>

@@ -30,6 +30,15 @@
                     </a>
                 </li>
                 <li>
+                    <?= $this->Html->link(
+                        'Experiments',
+                        [
+                            'controller' => 'Experiments',
+                            'action' => 'index'
+                        ]
+                    ) ?>
+                </li>
+                <li>
                     <a href="https://github.com/PhantomWatson" title="GitHub">
                         <i class="fa fa-github" style="font-size: 20px;"></i>
                     </a>
