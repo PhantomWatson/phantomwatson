@@ -28,6 +28,46 @@
     <?php endforeach; ?>
 </div>
 
+<section id="source">
+    <h2>
+        Source
+    </h2>
+    <ul>
+        <li>
+            <button>
+                PHP / HTML
+            </button>
+            <pre><?= htmlentities(
+                    "\$quote = '...';\n" .
+                    "\$words = explode(' ', \$quote);\n" .
+                    "<div id=\"word-coalesce\">\n" .
+                    "\t<?php foreach (\$words as \$word): ?>\n" .
+                    "\t\t<a href=\"#\" data-word=\"<?= \$word ?>\"><?= \$word ?></a>\n" .
+                    "\t<?php endforeach; ?>\n" .
+                    "</div>"
+                ) ?></pre>
+        </li>
+        <li>
+            <button>
+                Javascript
+            </button>
+            <pre><?php
+                $path = WWW_ROOT . 'js' . DS . 'experiments' . DS . 'word_coalesce.js';
+                echo htmlentities(file_get_contents($path));
+                ?></pre>
+        </li>
+        <li>
+            <button>
+                CSS
+            </button>
+            <pre><?php
+                $path = WWW_ROOT . 'css' . DS . 'experiments' . DS . 'word_coalesce.css';
+                echo htmlentities(file_get_contents($path));
+                ?></pre>
+        </li>
+    </ul>
+</section>
+
 <?php $this->append('buffered'); ?>
     wordCoalesce.init();
 <?php $this->end(); ?>

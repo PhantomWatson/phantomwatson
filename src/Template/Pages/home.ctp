@@ -16,7 +16,7 @@
     </div>
 </div>
 
-<section id="services">
+<section id="services" class="home">
     <div class="container">
         <div class="row text-center pad-bottom">
             <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
@@ -120,7 +120,7 @@
         </div>
     </div>*/ ?>
 
-<section id="sites">
+<section id="sites" class="home">
     <div class="container">
         <div class="row text-center pad-bottom">
             <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
@@ -223,7 +223,7 @@
         </div>
     </div>*/ ?>
 
-<section id="contact">
+<section id="contact" class="home">
     <div class="container">
         <div class="row text-center ">
             <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">

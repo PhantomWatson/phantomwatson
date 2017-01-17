@@ -6904,7 +6904,7 @@ body {
 #content h1 {
   font-size: 175%;
 }
-section {
+section.home {
   padding-top: 80px;
   padding-bottom: 120px;
 }
@@ -7031,5 +7031,142 @@ footer a:hover {
 #sites img {
   cursor: default;
   display: block;
+  margin-bottom: 15px;
+}
+#source {
+  border-top: 1px solid #333;
+  margin-top: 60px;
+  padding-top: 30px;
+}
+#source h2 {
+  font-size: 150%;
+  margin-top: 0;
+}
+#source button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  background-color: #424242;
+  border-color: #424242;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#source button:focus,
+#source button:active:focus,
+#source button.active:focus,
+#source button.focus,
+#source button:active.focus,
+#source button.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#source button:hover,
+#source button:focus,
+#source button.focus {
+  color: #fff;
+  text-decoration: none;
+}
+#source button:active,
+#source button.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#source button.disabled,
+#source button[disabled],
+fieldset[disabled] #source button {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a#source button.disabled,
+fieldset[disabled] a#source button {
+  pointer-events: none;
+}
+#source button:focus,
+#source button.focus {
+  color: #fff;
+  background-color: #282828;
+  border-color: #020202;
+}
+#source button:hover {
+  color: #fff;
+  background-color: #282828;
+  border-color: #232323;
+}
+#source button:active,
+#source button.active,
+.open > .dropdown-toggle#source button {
+  color: #fff;
+  background-color: #282828;
+  border-color: #232323;
+}
+#source button:active:hover,
+#source button.active:hover,
+.open > .dropdown-toggle#source button:hover,
+#source button:active:focus,
+#source button.active:focus,
+.open > .dropdown-toggle#source button:focus,
+#source button:active.focus,
+#source button.active.focus,
+.open > .dropdown-toggle#source button.focus {
+  color: #fff;
+  background-color: #161616;
+  border-color: #020202;
+}
+#source button:active,
+#source button.active,
+.open > .dropdown-toggle#source button {
+  background-image: none;
+}
+#source button.disabled:hover,
+#source button[disabled]:hover,
+fieldset[disabled] #source button:hover,
+#source button.disabled:focus,
+#source button[disabled]:focus,
+fieldset[disabled] #source button:focus,
+#source button.disabled.focus,
+#source button[disabled].focus,
+fieldset[disabled] #source button.focus {
+  background-color: #424242;
+  border-color: #424242;
+}
+#source button .badge {
+  color: #424242;
+  background-color: #fff;
+}
+#source pre {
+  background-color: #ccc;
+  display: none;
+  margin-top: 5px;
+  max-height: 300px;
+  overflow: auto;
+}
+#source ul {
+  padding-left: 15px;
+}
+#source li {
+  list-style-type: none;
   margin-bottom: 15px;
 }
