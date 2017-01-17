@@ -16,4 +16,9 @@ class ExperimentsController extends AppController
     {
         $this->set('pageTitle', 'Experiment #1: Word Coalesce');
     }
+
+    public function drunk()
+    {
+        $this->set('pageTitle', 'Experiment #2: Drunk');
+    }
 }

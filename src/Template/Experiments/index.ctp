@@ -16,4 +16,14 @@
             A visual effect that animates nearby letters melding into a selected word
         </p>
     </li>
+    <li>
+        <?= $this->Html->link(
+            '#2: Drunk',
+            ['action' => 'drunk']
+        ) ?>
+        <p>
+            Visual effects simulating drunkenness, used in
+            <a href="http://zombie.phantomwatson.com">Zombie Nightclub Hoedown</a>
+        </p>
+    </li>
 </ul>

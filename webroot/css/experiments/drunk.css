@@ -1,0 +1,113 @@
+body {
+  transition: text-shadow 2s;
+}
+#wrapper-tilt {
+  transition: transform 10s;
+}
+#wrapper-scale {
+  transition: all 10s;
+}
+.blurries-enabled .drunk-text-2 {
+  text-shadow: 0px 0px 0.1em #A7DF99;
+}
+.blurries-enabled .drunk-text-3 {
+  text-shadow: 2px 2px 0.5em #A7DF99;
+}
+.blurries-enabled .drunk-text-4 {
+  text-shadow: 2px 2px 0.5em #A7DF99, 5px 5px 0.3em #A7DF99;
+}
+.blurries-enabled .drunk-text-5 {
+  text-shadow: 2px 2px 0.5em #A7DF99, 10px 5px 0.1em #A7DF99;
+}
+.blurries-enabled .drunk-text-6 {
+  text-shadow: 2px 2px 0.9em #A7DF99, 15px 5px 0.09em #A7DF99;
+}
+.blurries-enabled .drunk-text-7 {
+  text-shadow: 2px 2px 0.9em #A7DF99, 15px 10px 0.07em #A7DF99;
+}
+.blurries-enabled .drunk-text-8 {
+  text-shadow: 2px 2px 0.9em #A7DF99, 10px -10px 0.1em #A7DF99, -20px -100px 0.5em #A7DF99;
+}
+.blurries-enabled .drunk-text-9 {
+  text-shadow: 2px 2px 0.9em #A7DF99, 50px -30px 0.06em #A7DF99, -50px 40px 0.1em #A7DF99, -20px -100px 0.5em #A7DF99, 20px 150px 0.9em #A7DF99;
+}
+.blurries-enabled .drunk-text-10 {
+  text-shadow: 2px 2px 0.9em #A7DF99, 50px -30px 0.06em #A7DF99, -50px 40px 0.1em #A7DF99, -20px -100px 0.5em #A7DF99, 20px 150px 0.9em #A7DF99, 500px 10px 0.3em #A7DF99, -400px 200px 2em #A7DF99;
+}
+.wobblies-enabled .drunk-tilt-4a {
+  transform: rotate(0.3deg);
+}
+.wobblies-enabled .drunk-tilt-4b {
+  transform: rotate(-0.3deg);
+}
+.wobblies-enabled .drunk-tilt-5a {
+  transform: rotate(0.35deg);
+}
+.wobblies-enabled .drunk-tilt-5b {
+  transform: rotate(-0.35deg);
+}
+.wobblies-enabled .drunk-tilt-6a {
+  transform: rotate(0.4deg);
+}
+.wobblies-enabled .drunk-tilt-6b {
+  transform: rotate(-0.4deg);
+}
+.wobblies-enabled .drunk-tilt-7a {
+  transform: rotate(0.5deg);
+}
+.wobblies-enabled .drunk-tilt-7b {
+  transform: rotate(-0.5deg);
+}
+.wobblies-enabled .drunk-tilt-8a {
+  transform: rotate(0.7deg);
+}
+.wobblies-enabled .drunk-tilt-8b {
+  transform: rotate(-0.7deg);
+}
+.wobblies-enabled .drunk-tilt-9a {
+  transform: rotate(0.9deg);
+}
+.wobblies-enabled .drunk-tilt-9b {
+  transform: rotate(-0.9deg);
+}
+.wobblies-enabled .drunk-tilt-10a {
+  transform: rotate(2deg);
+}
+.wobblies-enabled .drunk-tilt-10b {
+  transform: rotate(-2deg);
+}
+.wobblies-enabled .drunk-scale-n4 {
+  transform: scale(0.8);
+}
+.wobblies-enabled .drunk-scale-n3 {
+  transform: scale(0.85);
+}
+.wobblies-enabled .drunk-scale-n2 {
+  transform: scale(0.9);
+}
+.wobblies-enabled .drunk-scale-n1 {
+  transform: scale(0.95);
+}
+.wobblies-enabled .drunk-scale-0 {
+  transform: scale(1);
+}
+.wobblies-enabled .drunk-scale-1 {
+  transform: scale(1.05);
+}
+.wobblies-enabled .drunk-scale-2 {
+  transform: scale(1.1);
+}
+.wobblies-enabled .drunk-scale-3 {
+  transform: scale(1.15);
+}
+.wobblies-enabled .drunk-scale-4 {
+  transform: scale(1.2);
+}
+#wrapper-tilt.stop-wobblies {
+  transition: transform 1s;
+  transform: rotate(0deg);
+}
+#wrapper-scale.stop-wobblies {
+  transition: all 1s;
+  transform: scale(1);
+}
