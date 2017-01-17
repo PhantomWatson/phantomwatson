@@ -7,12 +7,28 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div class="navbar-collapse collapse navbar-right scroll-me">
-            <ul class="nav navbar-nav ">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#sites">Sites</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/#home" class="scroll">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/#services" class="scroll">
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="/#sites" class="scroll">
+                        Sites
+                    </a>
+                </li>
+                <li>
+                    <a href="/#contact" class="scroll">
+                        Contact
+                    </a>
+                </li>
                 <li>
                     <a href="https://github.com/PhantomWatson" title="GitHub">
                         <i class="fa fa-github" style="font-size: 20px;"></i>
