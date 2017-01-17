@@ -22,6 +22,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <title>
         PhantomWatson.com
+        <?php if (isset($pageTitle)): ?>
+            - <?= $pageTitle ?>
+        <?php endif; ?>
     </title>
     <?= $this->Html->meta('icon') ?>
     <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+Double+Pica+SC' rel='stylesheet'

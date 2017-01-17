@@ -9,6 +9,6 @@ class ExperimentsController extends AppController
 {
     public function wordCoalesce()
     {
-
+        $this->set('pageTitle', 'Experiment #1: Word Coalesce');
     }
 }
