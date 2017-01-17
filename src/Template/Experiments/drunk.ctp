@@ -35,7 +35,10 @@
             </button>
             <pre><?php
                 $path = APP . 'Template' . DS . 'Element' . DS . 'Experiments' . DS . 'drunk.ctp';
-                echo htmlentities(file_get_contents($path));
+                echo htmlentities(
+                    "<?php /* Assumes page content is wrapped in <div id=\"content\"></div> */ ?>\n" .
+                    file_get_contents($path)
+                );
             ?></pre>
         </li>
         <li>

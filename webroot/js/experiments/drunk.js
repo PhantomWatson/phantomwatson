@@ -4,7 +4,7 @@ var drunk = {
     level: 0,
 
     init: function () {
-        $('body').wrapInner('<div id="wrapper-tilt"></div>');
+        $('#content').wrapInner('<div id="wrapper-tilt"></div>');
         $('#wrapper-tilt').wrapInner('<div id="wrapper-scale"></div>');
 
         drunk.level = $('#drunk-level').val();
