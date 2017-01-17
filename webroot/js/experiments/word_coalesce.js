@@ -2,8 +2,6 @@
  * An experiment that produces the following effect:
  * User clicks on a link and the letters in all sibling links
  * float and merge into the clicked link
- *
- * @type {{init: wordCoalesce.init}}
  */
 var wordCoalesce = {
     initialState: null,
