@@ -1,6 +1,5 @@
 <?php
     $drunkLevels = [
-        1 => 'A little buzzed',
         2 => 'Buzzed',
         3 => 'Tipsy',
         4 => 'Drunk',
