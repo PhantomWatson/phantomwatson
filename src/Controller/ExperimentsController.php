@@ -21,4 +21,17 @@ class ExperimentsController extends AppController
     {
         $this->set('pageTitle', 'Experiment #2: Drunk');
     }
+
+    public function thoughtGenerator()
+    {
+        $this->set('pageTitle', 'Experiment #3: Thought Generator');
+    }
+
+    public function thoughtGeneratorSource()
+    {
+        $sourceUrl = 'http://theether.com/generator/getSource';
+        $results = json_decode(file_get_contents($sourceUrl));
+        $this->viewBuilder()->layout('json');
+        $this->set('source', $results->source);
+    }
 }

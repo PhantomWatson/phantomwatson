@@ -1,0 +1,14 @@
+#markovOptions {
+  height: 150px;
+  max-height: 150px;
+  overflow: auto;
+}
+#markovOptions .count {
+  font-size: 80%;
+}
+#markovOptions .count:before {
+  content: '(x';
+}
+#markovOptions .count:after {
+  content: ')';
+}

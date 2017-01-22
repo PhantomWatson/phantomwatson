@@ -43,6 +43,7 @@ Router::defaultRouteClass('DashedRoute');
 
 Router::scope('/', function ($routes) {
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'home']);
+    $routes->extensions(['json']);
 
     $routes->fallbacks('DashedRoute');
 });

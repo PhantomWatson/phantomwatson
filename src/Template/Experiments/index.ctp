@@ -26,4 +26,14 @@
             <a href="http://zombie.phantomwatson.com">Zombie Nightclub Hoedown</a>
         </p>
     </li>
+    <li>
+        <?= $this->Html->link(
+            '#3: Thought Generator',
+            ['action' => 'thoughtGenerator']
+        ) ?>
+        <p>
+            A Markov chain text generator developed for
+            <a href="http://theether.com">Ether</a>
+        </p>
+    </li>
 </ul>
