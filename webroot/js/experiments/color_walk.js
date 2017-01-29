@@ -19,7 +19,7 @@ var colorWalk = {
         setTimeout(function () {
             colorWalk.adjustColor();
             colorWalk.element.css('background-color', colorWalk.getHexColor());
-            $('#current-color').html(colorWalk.getHexColor());
+            $('#current-color').html('Background color: ' + colorWalk.getHexColor());
             colorWalk.changeBgColor();
         }, this.getInterval());
     },

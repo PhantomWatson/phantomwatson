@@ -7,6 +7,12 @@
     Experiment #5: Color Walk
 </h1>
 
+<p>
+    Starts automatically. You can change the <strong>interval</strong> to speed up or slow down the changes, or
+    change the <strong>adjustment range</strong> to determine how dramatically the background color can change
+    every time it's updated.
+</p>
+
 <?= $this->element('Experiments/color_walk') ?>
 
 <section id="source">
