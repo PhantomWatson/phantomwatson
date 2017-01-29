@@ -29,7 +29,7 @@ var vowelScrambler = {
      * @return string
      */
     scrambleLetter: function (letter) {
-        var vowels = ['a', 'e', 'i', 'o', 'u'];
+        var vowels = ['a', 'e', 'i', 'o', 'u', 'y'];
         if (vowels.indexOf(letter.toLowerCase()) == -1) {
             return letter;
         }
