@@ -10,7 +10,7 @@
 
     Min adjustment:
     <select class="form-control" id="min-adjustment">
-        <?php for ($n = 0; $n <= 5; $n++): ?>
+        <?php for ($n = 0; $n <= 10; $n++): ?>
             <option value="<?= $n ?>"><?= $n ?></option>
         <?php endfor; ?>
     </select>
@@ -19,7 +19,7 @@
 
     Max adjustment:
     <select class="form-control" id="max-adjustment">
-        <?php for ($n = 5; $n <= 10; $n++): ?>
+        <?php for ($n = 0; $n <= 10; $n++): ?>
             <option value="<?= $n ?>"><?= $n ?></option>
         <?php endfor; ?>
     </select>

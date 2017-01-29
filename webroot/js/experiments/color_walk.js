@@ -13,6 +13,24 @@ var colorWalk = {
         this.green = parseInt(parts[2], 16);
         this.blue = parseInt(parts[3], 16);
         this.changeBgColor();
+        $('#max-adjustment').val(10);
+
+        $('#min-adjustment').change(function () {
+            var min = $(this).val();
+            var max = $('#max-adjustment').val();
+            if (parseInt(min) > parseInt(max)) {
+                $('#max-adjustment').val(min);
+                $(this).val(max);
+            }
+        });
+        $('#max-adjustment').change(function () {
+            var min = $('#min-adjustment').val();
+            var max = $(this).val();
+            if (parseInt(min) > parseInt(max)) {
+                $('#min-adjustment').val(max);
+                $(this).val(min);
+            }
+        });
     },
 
     changeBgColor: function () {
