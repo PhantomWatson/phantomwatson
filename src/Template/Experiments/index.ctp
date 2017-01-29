@@ -4,7 +4,7 @@
 
 <p>
     Things I've developed for incomplete and future projects, for curiosity, or for fun. These tend to use
-    <a href="https://getbootstrap.com/">Bootstrap></a> and <a href="https://jquery.com/">jQuery</a>.
+    <a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://jquery.com/">jQuery</a>.
 </p>
 
 <ul>
