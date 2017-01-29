@@ -1,3 +1,4 @@
+<?php $this->Html->css('experiments/vowel_scrambler', ['block' => 'css']); ?>
 <?php $this->Html->script('experiments/vowel_scrambler', ['block' => 'script_bottom']); ?>
 
 <?= $this->element('Experiments/back') ?>
