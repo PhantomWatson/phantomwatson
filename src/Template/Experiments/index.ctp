@@ -48,4 +48,14 @@
             <a href="http://haunted.phantomwatson.com">Escape from Haunted Muncie Central High School</a>
         </p>
     </li>
+    <li>
+        <?= $this->Html->link(
+            '#5: Color Walk',
+            ['action' => 'colorWalk']
+        ) ?>
+        <p>
+            A function that randomly adjusts the page's background color, originally developed as an
+            Easter egg for <a href="theether.com">Ether</a>.
+        </p>
+    </li>
 </ul>

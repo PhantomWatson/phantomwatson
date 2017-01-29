@@ -39,4 +39,9 @@ class ExperimentsController extends AppController
     {
         $this->set('pageTitle', 'Experiment #4: Vowel Scrambler');
     }
+
+    public function colorWalk()
+    {
+        $this->set('pageTitle', 'Experiment #5: Color Walk');
+    }
 }
