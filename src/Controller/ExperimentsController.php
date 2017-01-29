@@ -34,4 +34,9 @@ class ExperimentsController extends AppController
         $this->viewBuilder()->layout('json');
         $this->set('source', $results->source);
     }
+
+    public function vowelScrambler()
+    {
+        $this->set('pageTitle', 'Experiment #4: Vowel Scrambler');
+    }
 }

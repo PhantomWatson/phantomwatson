@@ -37,4 +37,15 @@
             <a href="http://theether.com">Ether</a>
         </p>
     </li>
+    <li>
+        <?= $this->Html->link(
+            '#4: Vowel Scrambler',
+            ['action' => 'vowelScrambler']
+        ) ?>
+        <p>
+            A function that mixes up the vowels in a string, used to eff up the player's
+            name when they get caught in the paperwork tornado in the Guidance Office in
+            <a href="http://haunted.phantomwatson.com">Escape from Haunted Muncie Central High School</a>
+        </p>
+    </li>
 </ul>
