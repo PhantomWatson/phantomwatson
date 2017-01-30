@@ -1,5 +1,6 @@
 @ghostColor: #ddd;
 @ghostSize: 100px;
+@normalSpeed: 4000ms;
 
 #ghost-messages {
     max-width: 100%;
@@ -35,61 +36,33 @@
             transform: scale(1.5);
         }
     }
-    &.speed-absurdly-slow {
+    .speed(@multiplier) {
         li {
-            transition-duration: 24s;
+            transition-duration: @normalSpeed * (3 / 4) * @multiplier;
             &.fade-out {
-                transition-duration: 8s;
+                transition-duration: (@normalSpeed / 4) * @multiplier;
             }
         }
+    }
+    &.speed-absurdly-slow {
+        .speed(8);
     }
     &.speed-very-slow {
-        li {
-            transition-duration: 12s;
-            &.fade-out {
-                transition-duration: 4s;
-            }
-        }
+        .speed(4);
     }
     &.speed-slow {
-        li {
-            transition-duration: 6s;
-            &.fade-out {
-                transition-duration: 2s;
-            }
-        }
+        .speed(2);
     }
     &.speed-normal {
-        li {
-            transition-duration: 3s;
-            &.fade-out {
-                transition-duration: 1s;
-            }
-        }
-
+        .speed(1);
     }
     &.speed-fast {
-        li {
-            transition-duration: 1500ms;
-            &.fade-out {
-                transition-duration: 500ms;
-            }
-        }
+        .speed(0.5);
     }
     &.speed-very-fast {
-        li {
-            transition-duration: 750ms;
-            &.fade-out {
-                transition-duration: 250ms;
-            }
-        }
+        .speed(0.25);
     }
     &.speed-hyperspeed {
-        li {
-            transition-duration: 375ms;
-            &.fade-out {
-                transition-duration: 125ms;
-            }
-        }
+        .speed(0.125);
     }
 }

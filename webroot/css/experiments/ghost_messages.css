@@ -32,28 +32,28 @@
   transform: scale(1.5);
 }
 #ghost-messages.speed-absurdly-slow li {
-  transition-duration: 24s;
+  transition-duration: 24000ms;
 }
 #ghost-messages.speed-absurdly-slow li.fade-out {
-  transition-duration: 8s;
+  transition-duration: 8000ms;
 }
 #ghost-messages.speed-very-slow li {
-  transition-duration: 12s;
+  transition-duration: 12000ms;
 }
 #ghost-messages.speed-very-slow li.fade-out {
-  transition-duration: 4s;
+  transition-duration: 4000ms;
 }
 #ghost-messages.speed-slow li {
-  transition-duration: 6s;
+  transition-duration: 6000ms;
 }
 #ghost-messages.speed-slow li.fade-out {
-  transition-duration: 2s;
+  transition-duration: 2000ms;
 }
 #ghost-messages.speed-normal li {
-  transition-duration: 3s;
+  transition-duration: 3000ms;
 }
 #ghost-messages.speed-normal li.fade-out {
-  transition-duration: 1s;
+  transition-duration: 1000ms;
 }
 #ghost-messages.speed-fast li {
   transition-duration: 1500ms;
