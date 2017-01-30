@@ -11,17 +11,47 @@
   position: absolute;
   text-align: center;
   width: 100%;
-  transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 #ghost-messages li:nth-child(1) {
   display: block;
   text-shadow: 0 0 1000px #fff;
 }
-#ghost-messages li.fade-in:nth-child(1) {
+#ghost-messages li.fade-in {
   text-shadow: 0 0 0 #fff;
 }
-#ghost-messages li.fade-out:nth-child(1) {
-  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+#ghost-messages li.fade-out {
   text-shadow: 0 0 10px #fff;
   opacity: 0;
+}
+#ghost-messages.speed-very-slow li {
+  transition-duration: 12s;
+}
+#ghost-messages.speed-very-slow li.fade-out {
+  transition-duration: 4s;
+}
+#ghost-messages.speed-slow li {
+  transition-duration: 6s;
+}
+#ghost-messages.speed-slow li.fade-out {
+  transition-duration: 2s;
+}
+#ghost-messages.speed-normal li {
+  transition-duration: 3s;
+}
+#ghost-messages.speed-normal li.fade-out {
+  transition-duration: 1s;
+}
+#ghost-messages.speed-fast li {
+  transition-duration: 1500ms;
+}
+#ghost-messages.speed-fast li.fade-out {
+  transition-duration: 500ms;
+}
+#ghost-messages.speed-very-fast li {
+  transition-duration: 750ms;
+}
+#ghost-messages.speed-very-fast li.fade-out {
+  transition-duration: 250ms;
 }

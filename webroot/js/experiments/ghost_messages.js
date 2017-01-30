@@ -8,7 +8,11 @@ var ghostMessages = {
                 ghostMessages.cycle();
             }, 100);
         });
+        $('#speed').change(function () {
+            ghostMessages.updateSpeed();
+        });
         this.enableInput();
+        this.updateSpeed();
     },
 
     addInput: function () {
@@ -32,8 +36,8 @@ var ghostMessages = {
     },
 
     cycle: function () {
-        var inTransitionLength = 3000;
-        var outTransitionLength = 1000;
+        var inTransitionLength = this.getFadeInDuration();
+        var outTransitionLength = this.getFadeOutDuration();
         if ($('#ghost-messages li').length === 0) {
             this.enableInput();
             return;
@@ -61,5 +65,57 @@ var ghostMessages = {
 
     removeWord: function () {
         $('#ghost-messages li:first-child').remove();
+    },
+
+    getFadeOutDuration: function () {
+        var totalDuration = this.getTotalTransitionDuration();
+        return Math.round(totalDuration / 4);
+    },
+
+    getFadeInDuration: function () {
+        var totalDuration = this.getTotalTransitionDuration();
+        return Math.round(totalDuration * (3 / 4));
+    },
+
+    getSpeed: function () {
+        var speeds = [
+            'speed-very-slow',
+            'speed-slow',
+            'speed-normal',
+            'speed-fast',
+            'speed-very-fast'
+        ];
+        for (var i = 0; i < speeds.length; i++) {
+            if ($('#ghost-messages').hasClass(speeds[i])) {
+                return speeds[i];
+            }
+        }
+
+        return false;
+    },
+
+    getTotalTransitionDuration: function () {
+        var speed = this.getSpeed();
+        switch (speed) {
+            case 'speed-very-slow':
+                return 16000;
+            case 'speed-slow':
+                return 8000;
+            case 'speed-normal':
+                return 4000;
+            case 'speed-fast':
+                return 2000;
+            case 'speed-very-fast':
+                return 1000;
+        }
+
+        return 0;
+    },
+
+    updateSpeed: function () {
+        var currentSpeed = this.getSpeed();
+        $('#ghost-messages')
+            .removeClass(currentSpeed)
+            .addClass('speed-' + $('#speed').val());
     }
 };
