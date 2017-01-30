@@ -3,10 +3,10 @@ var ghostMessages = {
         $('#start').click(function () {
             ghostMessages.addInput();
             ghostMessages.disableInput();
-            // 100ms delay helps ensure that fade-in transition is shown
+            // 50ms delay helps ensure that fade-in transition is shown
             setTimeout(function () {
                 ghostMessages.cycle();
-            }, 100);
+            }, 50);
         });
         $('#speed').change(function () {
             ghostMessages.updateSpeed();
@@ -47,10 +47,10 @@ var ghostMessages = {
             ghostMessages.hideWord();
             setTimeout(function () {
                 ghostMessages.removeWord();
-                // 100ms delay helps ensure that fade-in transition is shown
+                // 50ms delay helps ensure that fade-in transition is shown
                 setTimeout(function () {
                     ghostMessages.cycle();
-                }, 100);
+                }, 50);
             }, outTransitionLength);
         }, inTransitionLength);
     },
