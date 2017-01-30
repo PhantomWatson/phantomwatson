@@ -44,4 +44,9 @@ class ExperimentsController extends AppController
     {
         $this->set('pageTitle', 'Experiment #5: Color Walk');
     }
+
+    public function ghostMessages()
+    {
+        $this->set('pageTitle', 'Experiment #6: Ghost Messages');
+    }
 }

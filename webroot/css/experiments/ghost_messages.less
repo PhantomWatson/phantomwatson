@@ -1,0 +1,36 @@
+@ghostColor: #ddd;
+@ghostSize: 100px;
+
+#ghost-messages {
+    max-width: 100%;
+    min-height: @ghostSize;
+    overflow: hidden;
+
+    li {
+        color: transparent;
+        display: none;
+        font-size: @ghostSize;
+        list-style-type: none;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        &:nth-child(1) {
+            display: block;
+            text-shadow: 0 0 1000px #fff;
+        }
+        &.fade-in {
+            &:nth-child(1) {
+                text-shadow: 0 0 0 #fff;
+            }
+        }
+        &.fade-out {
+            &:nth-child(1) {
+                transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+                text-shadow: 0 0 10px #fff;
+                opacity: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+#ghost-messages {
+  max-width: 100%;
+  min-height: 100px;
+  overflow: hidden;
+}
+#ghost-messages li {
+  color: transparent;
+  display: none;
+  font-size: 100px;
+  list-style-type: none;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#ghost-messages li:nth-child(1) {
+  display: block;
+  text-shadow: 0 0 1000px #fff;
+}
+#ghost-messages li.fade-in:nth-child(1) {
+  text-shadow: 0 0 0 #fff;
+}
+#ghost-messages li.fade-out:nth-child(1) {
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  text-shadow: 0 0 10px #fff;
+  opacity: 0;
+}

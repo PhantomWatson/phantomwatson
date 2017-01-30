@@ -55,7 +55,16 @@
         ) ?>
         <p>
             A function that randomly adjusts the page's background color, originally developed as an
-            Easter egg for <a href="theether.com">Ether</a>.
+            Easter egg for <a href="theether.com">Ether</a>
+        </p>
+    </li>
+    <li>
+        <?= $this->Html->link(
+            '#6: Ghost Messages',
+            ['action' => 'ghostMessages']
+        ) ?>
+        <p>
+            A ghostly animated text display
         </p>
     </li>
 </ul>
