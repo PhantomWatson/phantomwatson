@@ -13,17 +13,22 @@
   width: 100%;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(2);
 }
 #ghost-messages li:nth-child(1) {
   display: block;
   text-shadow: 0 0 1000px #fff;
 }
 #ghost-messages li.fade-in {
+  font-size: 100px;
   text-shadow: 0 0 0 #fff;
+  transform: scale(1);
 }
 #ghost-messages li.fade-out {
+  font-size: 100px;
   text-shadow: 0 0 10px #fff;
   opacity: 0;
+  transform: scale(1.5);
 }
 #ghost-messages.speed-absurdly-slow li {
   transition-duration: 24s;
