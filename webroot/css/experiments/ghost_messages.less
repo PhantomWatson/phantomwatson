@@ -29,6 +29,14 @@
             opacity: 0;
         }
     }
+    &.speed-absurdly-slow {
+        li {
+            transition-duration: 24s;
+            &.fade-out {
+                transition-duration: 8s;
+            }
+        }
+    }
     &.speed-very-slow {
         li {
             transition-duration: 12s;
@@ -67,6 +75,14 @@
             transition-duration: 750ms;
             &.fade-out {
                 transition-duration: 250ms;
+            }
+        }
+    }
+    &.speed-hyperspeed {
+        li {
+            transition-duration: 375ms;
+            &.fade-out {
+                transition-duration: 125ms;
             }
         }
     }

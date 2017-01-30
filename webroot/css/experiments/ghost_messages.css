@@ -25,6 +25,12 @@
   text-shadow: 0 0 10px #fff;
   opacity: 0;
 }
+#ghost-messages.speed-absurdly-slow li {
+  transition-duration: 24s;
+}
+#ghost-messages.speed-absurdly-slow li.fade-out {
+  transition-duration: 8s;
+}
 #ghost-messages.speed-very-slow li {
   transition-duration: 12s;
 }
@@ -54,4 +60,10 @@
 }
 #ghost-messages.speed-very-fast li.fade-out {
   transition-duration: 250ms;
+}
+#ghost-messages.speed-hyperspeed li {
+  transition-duration: 375ms;
+}
+#ghost-messages.speed-hyperspeed li.fade-out {
+  transition-duration: 125ms;
 }

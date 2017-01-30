@@ -79,11 +79,13 @@ var ghostMessages = {
 
     getSpeed: function () {
         var speeds = [
+            'speed-absurdly-slow',
             'speed-very-slow',
             'speed-slow',
             'speed-normal',
             'speed-fast',
-            'speed-very-fast'
+            'speed-very-fast',
+            'speed-hyperspeed'
         ];
         for (var i = 0; i < speeds.length; i++) {
             if ($('#ghost-messages').hasClass(speeds[i])) {
@@ -97,6 +99,8 @@ var ghostMessages = {
     getTotalTransitionDuration: function () {
         var speed = this.getSpeed();
         switch (speed) {
+            case 'speed-absurdly-slow':
+                return 32000;
             case 'speed-very-slow':
                 return 16000;
             case 'speed-slow':
@@ -107,6 +111,8 @@ var ghostMessages = {
                 return 2000;
             case 'speed-very-fast':
                 return 1000;
+            case 'speed-hyperspeed':
+                return 500;
         }
 
         return 0;

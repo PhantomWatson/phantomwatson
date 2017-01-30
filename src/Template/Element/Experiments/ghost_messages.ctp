@@ -1,6 +1,9 @@
 <div class="form-inline">
     Speed:
     <select id="speed" class="form-control">
+        <option value="absurdly-slow">
+            Absurdly slow
+        </option>
         <option value="very-slow">
             Very slow
         </option>
@@ -15,6 +18,9 @@
         </option>
         <option value="very-fast">
             Very fast
+        </option>
+        <option value="hyperspeed">
+            Hyperspeed
         </option>
     </select>
     <br />
