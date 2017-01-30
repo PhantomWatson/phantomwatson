@@ -12,14 +12,14 @@
         color: transparent;
         display: none;
         font-size: @ghostSize;
+        left: 0;
         list-style-type: none;
         position: absolute;
+        right: 0;
         text-align: center;
         text-shadow: 0 0 1000px #fff;
-        transform: scale(2);
         transition-property: all;
         transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-        width: 100%;
 
         &:nth-child(1) {
             display: block;
@@ -27,13 +27,20 @@
         &.fade-in {
             font-size: @ghostSize;
             text-shadow: 0 0 0 #fff;
-            transform: scale(1);
+            span {
+                transform: scale(1);
+            }
         }
         &.fade-out {
             font-size: @ghostSize;
             text-shadow: 0 0 10px #fff;
             opacity: 0;
-            transform: scale(1.5);
+            span {
+                transform: scale(1.1);
+            }
+        }
+        span {
+            transform: scale(1.1);
         }
     }
     .speed(@multiplier) {
