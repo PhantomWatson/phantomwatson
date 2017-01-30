@@ -14,14 +14,14 @@
         list-style-type: none;
         position: absolute;
         text-align: center;
-        width: 100%;
+        text-shadow: 0 0 1000px #fff;
+        transform: scale(2);
         transition-property: all;
         transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-        transform: scale(2);
+        width: 100%;
 
         &:nth-child(1) {
             display: block;
-            text-shadow: 0 0 1000px #fff;
         }
         &.fade-in {
             font-size: @ghostSize;

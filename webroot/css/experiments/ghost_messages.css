@@ -11,14 +11,14 @@
   list-style-type: none;
   position: absolute;
   text-align: center;
-  width: 100%;
+  text-shadow: 0 0 1000px #fff;
+  transform: scale(2);
   transition-property: all;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-  transform: scale(2);
+  width: 100%;
 }
 #ghost-messages li:nth-child(1) {
   display: block;
-  text-shadow: 0 0 1000px #fff;
 }
 #ghost-messages li.fade-in {
   font-size: 100px;
