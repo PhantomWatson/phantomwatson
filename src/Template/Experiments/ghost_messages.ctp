@@ -21,7 +21,7 @@
             <pre><?php
                 $path = APP . 'Template' . DS . 'Element' . DS . 'Experiments' . DS . 'ghost_messages.ctp';
                 echo htmlentities(file_get_contents($path));
-                ?></pre>
+            ?></pre>
         </li>
         <li>
             <button>
@@ -30,7 +30,16 @@
             <pre><?php
                 $path = WWW_ROOT . 'js' . DS . 'experiments' . DS . 'ghost_messages.js';
                 echo htmlentities(file_get_contents($path));
-                ?></pre>
+            ?></pre>
+        </li>
+        <li>
+            <button>
+                LESS
+            </button>
+            <pre><?php
+                $path = WWW_ROOT . 'css' . DS . 'experiments' . DS . 'ghost_messages.less';
+                echo htmlentities(file_get_contents($path));
+            ?></pre>
         </li>
     </ul>
 </section>
