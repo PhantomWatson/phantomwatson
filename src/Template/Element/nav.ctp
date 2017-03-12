@@ -49,7 +49,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://facebook.com/phaantom" title="Facebook">
+                    <a href="https://www.facebook.com/phant0m.watson/" title="Facebook">
                         <i class="fa fa-facebook-square" style="font-size: 20px;"></i>
                     </a>
                 </li>
