@@ -200,7 +200,17 @@
         </div>
         <div class="row text-center portfolio-item">
             <div class="col-md-4 col-sm-4 ">
-
+                <div>
+                    <a href="http://haunted.phantomwatson.com/">
+                        <img src="/img/sites/haunted.png" class="img-responsive " alt=""/>
+                        Escape from Haunted MCHS
+                    </a>
+                    <h5>
+                        A game originally developed in 2002 for the students of Muncie Central High School and
+                        resurrected in 2016. Search through over 120 rooms to investigate mysteries, defeat villains,
+                        and save the school.
+                    </h5>
+                </div>
             </div>
             <div class="col-md-4 col-sm-4 ">
                 <div>
