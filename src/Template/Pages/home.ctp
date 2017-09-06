@@ -224,7 +224,15 @@
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 ">
-
+                <div>
+                    <a href="https://phantomwatson.com/fun_facts">
+                        <img src="/img/sites/facts.png" class="img-responsive " alt=""/>
+                        Trivia Brawl Fun Facts
+                    </a>
+                    <h5>
+                        A presentation of "facts" displayed before each episode of Trivia Brawl begins.
+                    </h5>
+                </div>
             </div>
         </div>
     </div>
