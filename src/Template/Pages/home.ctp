@@ -53,18 +53,15 @@
                     PERFORMER
                 </h4>
                 <p>
-                    I emcee festivals, concerts, burlesque shows, sideshows, variety shows, gameshows,
-                    and just about any other kind of show you can think of. With firebreathing,
-                    ghastly sideshow acts, and body suspension in the mix, I've managed to fully utilize
-                    my <em>extremely</em> modest talents.
+                    I emcee and produce festivals, concerts, burlesque shows, sideshows, variety shows, gameshows,
+                    and just about any other kind of show you can think of. When I'm not hosting, I'm performing
+                    fire, sideshow, and body suspension acts.
                 </p>
                 <p>
-                    I've hosted a weekly bar trivia gameshow called <a href="http://facebook.com/TriviaBrawl">Trivia
-                        Brawl</a>
-                    for over eight years, which you can currently catch at <a href="http://beherenowmusic.com/">Be Here
-                        Now</a>
-                    in Muncie, IN on Sundays. I'm available for hire for any of the stuff that I do, as is my suspension
-                    troupe,
+                    I've hosted a live gameshow called <a href="http://facebook.com/TriviaBrawl">Trivia Brawl</a>
+                    since 2007, which is currently being hosted at
+                    <a href="http://www.whiterabbitcabaret.com/">The White Rabbit Cabaret</a> in Indianapolis.
+                    I'm available for hire for any of the stuff that I do, as is my suspension troupe,
                     <a href="https://www.facebook.com/SubcultureSuspensionArts/">Subculture Suspension Arts</a>.
                 </p>
             </div>
