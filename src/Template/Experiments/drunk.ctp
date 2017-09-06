@@ -10,7 +10,7 @@
 <p>
     Select a level of drunkenness below to activate. Lower levels are more subtle, while the highest levels are...
     well, <em>not</em>. Wait a few seconds for visual effects to start kicking in. Switch drunkenness level while the
-    effect is enabled to see how the different levels look. This experiment a higher-than-average chance of breaking
+    effect is enabled to see how the different levels look. This experiment has a higher-than-average chance of breaking
     the layout or causing other browser weirdness and might be too processor-intensive for your phone to render
     smoothly.
 </p>
