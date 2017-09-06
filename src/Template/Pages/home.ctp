@@ -131,7 +131,7 @@
             <div class="col-md-4 col-sm-4 ">
                 <div>
                     <a href="http://MuncieEvents.com">
-                        <img src="/phantomwatson/img/sites/muncieevents.png" class="img-responsive "/>
+                        <img src="/img/sites/muncieevents.png" class="img-responsive "/>
                         Muncie Events
                     </a>
                     <h5>
@@ -142,7 +142,7 @@
             <div class="col-md-4 col-sm-4 ">
                 <div>
                     <a href="http://cberdata.org">
-                        <img src="/phantomwatson/img/sites/cber.png" class="img-responsive "/>
+                        <img src="/img/sites/cber.png" class="img-responsive "/>
                         CBER Data Center
                     </a>
                     <h5>
@@ -154,7 +154,7 @@
             <div class="col-md-4 col-sm-4 ">
                 <div>
                     <a href="http://ElementalProtection.org">
-                        <img src="/phantomwatson/img/sites/elemental.png" class="img-responsive " alt=""/>
+                        <img src="/img/sites/elemental.png" class="img-responsive " alt=""/>
                         Elemental
                     </a>
                     <h5>
@@ -167,7 +167,7 @@
             <div class="col-md-4 col-sm-4 ">
                 <div>
                     <a href="http://MuncieMusicFest.com">
-                        <img src="/phantomwatson/img/sites/mmf.png" class="img-responsive " alt=""/>
+                        <img src="/img/sites/mmf.png" class="img-responsive " alt=""/>
                         Muncie MusicFest
                     </a>
                     <h5>
@@ -178,7 +178,7 @@
             <div class="col-md-4 col-sm-4 ">
                 <div>
                     <a href="http://theEther.com">
-                        <img src="/phantomwatson/img/sites/ether.png" class="img-responsive " alt=""/>
+                        <img src="/img/sites/ether.png" class="img-responsive " alt=""/>
                         Ether
                     </a>
                     <h5>
@@ -189,7 +189,7 @@
             <div class="col-md-4 col-sm-4 ">
                 <div>
                     <a href="http://zombie.phantomwatson.com/">
-                        <img src="/phantomwatson/img/sites/zombie.png" class="img-responsive " alt=""/>
+                        <img src="/img/sites/zombie.png" class="img-responsive " alt=""/>
                         Zombie Nightclub Hoedown
                     </a>
                     <h5>
