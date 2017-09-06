@@ -230,7 +230,8 @@
                         Trivia Brawl Fun Facts
                     </a>
                     <h5>
-                        A presentation of "facts" displayed before each episode of Trivia Brawl begins.
+                        A presentation of "facts" displayed before each episode of Trivia Brawl begins. Click the
+                        logo to advance to the next fact, or wait for it to cycle automatically.
                     </h5>
                 </div>
             </div>
