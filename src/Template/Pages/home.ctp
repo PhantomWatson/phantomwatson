@@ -188,6 +188,19 @@
             </div>
             <div class="col-md-4 col-sm-4 ">
                 <div>
+                    <a href="https://members.munciearts.org/">
+                        <img src="/img/sites/macc.png" class="img-responsive " alt=""/>
+                        Muncie Arts and Culture Council Membership
+                    </a>
+                    <h5>
+                        A website for the membership of one of Muncie's primary arts organizations.
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center portfolio-item">
+            <div class="col-md-4 col-sm-4 ">
+                <div>
                     <a href="http://zombie.phantomwatson.com/">
                         <img src="/img/sites/zombie.png" class="img-responsive " alt=""/>
                         Zombie Nightclub Hoedown
@@ -197,8 +210,6 @@
                     </h5>
                 </div>
             </div>
-        </div>
-        <div class="row text-center portfolio-item">
             <div class="col-md-4 col-sm-4 ">
                 <div>
                     <a href="http://haunted.phantomwatson.com/">
@@ -209,17 +220,6 @@
                         A game originally developed in 2002 for the students of Muncie Central High School and
                         resurrected in 2016. Search through over 120 rooms to investigate mysteries, defeat villains,
                         and save the school.
-                    </h5>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4 ">
-                <div>
-                    <a href="https://members.munciearts.org/">
-                        <img src="/img/sites/macc.png" class="img-responsive " alt=""/>
-                        Muncie Arts and Culture Council Membership
-                    </a>
-                    <h5>
-                        A website for the membership of one of Muncie's primary arts organizations.
                     </h5>
                 </div>
             </div>
