@@ -190,10 +190,10 @@
                 <div>
                     <a href="https://members.munciearts.org/">
                         <img src="/img/sites/macc.png" class="img-responsive " alt=""/>
-                        Muncie Arts and Culture Council Membership
+                        Muncie Arts and Culture Council - Membership
                     </a>
                     <h5>
-                        A website for the membership of one of Muncie's primary arts organizations.
+                        A website for the membership of MACC, the official Arts Partner of the City of Muncie.
                     </h5>
                 </div>
             </div>
