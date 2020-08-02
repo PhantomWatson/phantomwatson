@@ -163,19 +163,23 @@ footer {
         }
     }
 
-    a {
-        font-size: 160%;
-        font-weight: bold;
-        letter-spacing: 2px;
+    .col-md-4 {
+        > div {
+            a {
+                font-size: 160%;
+                font-weight: bold;
+                letter-spacing: 2px;
 
-        &:hover,
-        &:focus {
-            img {
-                cursor: pointer;
-                transform: scale(1.05, 1.05);
-                transition-duration: 0.3s;
-                box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-                z-index: 1;
+                &:hover,
+                &:focus {
+                    img {
+                        cursor: pointer;
+                        transform: scale(1.05, 1.05);
+                        transition-duration: 0.3s;
+                        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+                        z-index: 1;
+                    }
+                }
             }
         }
     }
