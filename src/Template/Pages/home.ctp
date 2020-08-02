@@ -121,6 +121,55 @@
     <div class="container">
         <div class="row text-center pad-bottom">
             <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                <h2 class="head-set">Videos</h2>
+                <p>
+                    Subscribe for more videos on
+                    <a href="https://www.youtube.com/channel/UC5nL6BaQpstkhkgqCtkUBEQ">my YouTube channel</a>
+                </p>
+            </div>
+        </div>
+        <div class="row text-center portfolio-item">
+            <div class="col-md-4 col-sm-4 ">
+                <div>
+                    <a href="https://www.youtube.com/channel/UC584WxpuE5nP3R9J-Azy3vg">
+                        <img src="/img/videos/trivia.png" class="img-responsive" />
+                        Trivia Brawl
+                    </a>
+                    <h5>
+                        Videos produced for the Trivia Brawl gameshow series
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 ">
+                <div>
+                    <a href="https://www.youtube.com/playlist?list=PLHWLiG2Z8IG8ybX28LCjCPVnWHEReezd8">
+                        <img src="/img/videos/cammack.png" class="img-responsive" />
+                        New Cammack
+                    </a>
+                    <h5>
+                        A Vampire: the Masquerade comedy-horror-mystery playcast series
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 ">
+                <div>
+                    <a href="https://www.youtube.com/playlist?list=PLHWLiG2Z8IG9FqIXSYEbKG_iWh3tcRLDd">
+                        <img src="/img/videos/performances.png" class="img-responsive" />
+                        Performances
+                    </a>
+                    <h5>
+                        Fire, comedy, and hosting performances
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sites" class="home">
+    <div class="container">
+        <div class="row text-center pad-bottom">
+            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                 <h2 class="head-set">Developed Websites</h2>
                 <p>
                     The internet is magical. Let's make cool, useful, wonderful things with it.
