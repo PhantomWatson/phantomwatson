@@ -49,6 +49,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="https://www.youtube.com/channel/UC5nL6BaQpstkhkgqCtkUBEQ" title="YouTube">
+                        <i class="fab fa-youtube" style="font-size: 20px;"></i>
+                    </a>
+                </li>
+                <li>
                     <a href="https://www.linkedin.com/in/grahamwatson2" title="LinkedIn">
                         <i class="fab fa-linkedin" style="font-size: 20px;"></i>
                     </a>
