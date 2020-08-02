@@ -20,6 +20,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/#videos" class="scroll">
+                        Videos
+                    </a>
+                </li>
+                <li>
                     <a href="/#sites" class="scroll">
                         Sites
                     </a>

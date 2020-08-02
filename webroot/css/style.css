@@ -7104,29 +7104,29 @@ footer a:hover {
   color: #fff;
   text-decoration: none;
 }
-#sites > .container > .row > div > div {
+.thumbnails > .container > .row > div > div {
   background-color: #333;
   border-radius: 10px;
   margin-bottom: 15px;
   padding: 15px;
 }
-#sites > .container > .row:nth-child(even) > div > div {
+.thumbnails > .container > .row:nth-child(even) > div > div {
   background-color: #222;
 }
-#sites .col-md-4 > div a {
+.thumbnails .col-md-4 > div a {
   font-size: 160%;
   font-weight: bold;
   letter-spacing: 2px;
 }
-#sites .col-md-4 > div a:hover img,
-#sites .col-md-4 > div a:focus img {
+.thumbnails .col-md-4 > div a:hover img,
+.thumbnails .col-md-4 > div a:focus img {
   cursor: pointer;
   transform: scale(1.05, 1.05);
   transition-duration: 0.3s;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-#sites img {
+.thumbnails img {
   cursor: default;
   display: block;
   margin-bottom: 15px;

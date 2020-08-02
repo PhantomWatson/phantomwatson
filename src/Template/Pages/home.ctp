@@ -117,7 +117,7 @@
         </div>
     </div>*/ ?>
 
-<section id="sites" class="home">
+<section id="videos" class="home thumbnails">
     <div class="container">
         <div class="row text-center pad-bottom">
             <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
@@ -166,7 +166,7 @@
     </div>
 </section>
 
-<section id="sites" class="home">
+<section id="sites" class="home thumbnails">
     <div class="container">
         <div class="row text-center pad-bottom">
             <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
