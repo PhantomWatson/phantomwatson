@@ -33,7 +33,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#060606">
-    <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+Double+Pica+SC' rel='stylesheet'
+    <link href='https://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+Double+Pica+SC' rel='stylesheet'
           type='text/css'/>
     <link href="/font-awesome-5.14.0/css/all.min.css" rel="stylesheet" type="text/css" />
 
