@@ -250,12 +250,13 @@
         <div class="row text-center portfolio-item">
             <div class="col-md-4 col-sm-4 ">
                 <div>
-                    <a href="http://zombie.phantomwatson.com/">
-                        <img src="/img/sites/zombie.png" class="img-responsive " alt=""/>
-                        Zombie Nightclub Hoedown
+                    <a href="http://bastard-elf-hassler.phantomwatson.com/">
+                        <img src="/img/sites/bastard-elf-hassler.png" class="img-responsive " alt="Bastard Elf Hassler"/>
+                        Bastard Elf Hassler
                     </a>
                     <h5>
-                        A humor/horror game where you get drunk, beat zombie ass, and save your favorite bar
+                        A dice-roller for combat and other such hassles in the game
+                        <em>The Sword of the Bastard Elf</em>.
                     </h5>
                 </div>
             </div>
@@ -284,6 +285,15 @@
                     </h5>
                 </div>
             </div>
+            <!--
+            <a href="http://zombie.phantomwatson.com/">
+                <img src="/img/sites/zombie.png" class="img-responsive " alt=""/>
+                Zombie Nightclub Hoedown
+            </a>
+            <h5>
+                A humor/horror game where you get drunk, beat zombie ass, and save your favorite bar
+            </h5>
+            -->
         </div>
     </div>
 </section>
