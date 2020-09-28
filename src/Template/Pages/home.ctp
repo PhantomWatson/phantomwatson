@@ -61,8 +61,9 @@
                     I've hosted a live gameshow called <a href="http://facebook.com/TriviaBrawl">Trivia Brawl</a>
                     since 2007, which is currently being hosted at
                     <a href="http://www.whiterabbitcabaret.com/">The White Rabbit Cabaret</a> in Indianapolis.
-                    I'm available for hire for any of the stuff that I do, as is my suspension troupe,
-                    <a href="https://www.facebook.com/SubcultureSuspensionArts/">Subculture Suspension Arts</a>.
+                    I'm available for hire for any of the stuff that I do, as is my body suspension troupe
+                    <a href="https://www.facebook.com/SubcultureSuspensionArts/">Subculture Suspension Arts</a> and
+                    burlesque troupe <a href="https://www.facebook.com/ProjectXBurlesque/">Project X Burlesque</a>.
                 </p>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
