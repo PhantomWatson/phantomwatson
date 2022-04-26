@@ -238,12 +238,13 @@
             </div>
             <div class="col-md-4 col-sm-4 ">
                 <div>
-                    <a href="https://members.munciearts.org/">
-                        <img src="/img/sites/macc.png" class="img-responsive " alt=""/>
-                        Muncie Arts and Culture Council - Membership
+                    <a href="https://vgr-fetcher.phantomwatson.com/">
+                        <img src="/img/sites/vgr.png" class="img-responsive " alt=""/>
+                        VGR Album Art Fetcher
                     </a>
                     <h5>
-                        A website for the membership of MACC, the official Arts Partner of the City of Muncie.
+                        An application for searching public APIs for music album artwork, built to help out
+                        <a href="https://www.facebook.com/VillageGreenRecords">Village Green Records</a>
                     </h5>
                 </div>
             </div>
