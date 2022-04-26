@@ -7113,7 +7113,7 @@ footer a:hover {
 .thumbnails > .container > .row:nth-child(even) > div > div {
   background-color: #222;
 }
-.thumbnails .col-md-4 > div a {
+.thumbnails .col-md-4 > div > a {
   font-size: 160%;
   font-weight: bold;
   letter-spacing: 2px;
