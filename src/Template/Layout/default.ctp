@@ -35,7 +35,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <meta name="theme-color" content="#060606">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+Double+Pica+SC" rel="stylesheet"
           type="text/css" />
-    <link href="/font-awesome-5.14.0/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="/font-awesome-6.1.1/css/all.min.css" rel="stylesheet" type="text/css" />
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
