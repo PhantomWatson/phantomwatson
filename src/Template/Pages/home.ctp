@@ -9,7 +9,7 @@
                     Professional stuff-doer
                 </h2>
                 <p>
-                    web dev / kung fu / fire / bounty hunting / body suspension / emcee
+                    web dev / martial arts / fire / body suspension / emcee
                 </p>
             </div>
         </div>
@@ -67,18 +67,20 @@
                 </p>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
-                <i class="fa fa-user-secret  fa-5x"></i>
+                <i class="fa-solid fa-hand-fist fa-5x"></i>
                 <h4 class="head-set">
-                    BOUNTY HUNTER
+                    MARTIAL ARTIST
                 </h4>
                 <p>
-                    After years of studying and teaching self-defense and various martial arts, I've
-                    branched out into professional fugitive recovery.
+                    I'm a lifelong martial arts nerd, specializing in and teaching
+                    <a href="https://en.wikipedia.org/wiki/Arnis">Filipino martial arts</a>,
+                    women's self-defense, and
+                    <a href="https://www.facebook.com/Elemental-Sexual-Assault-Protection-222075131179887/">sexual assault protection</a>.
                 </p>
                 <p>
-                    If you're a bail agent in the Midwest and need a skip recovered, my licensed team of
-                    ex-military, ex-law-enforcement, and talented civilian agents are courteous, professional, safe, and
-                    reliable.
+                    I've also picked up instruction in about a dozen martial arts over the years, including arrest
+                    tactics during the years I worked in bail enforcement as a fugitive recovery agent, as well as
+                    tactical handgun combat.
                 </p>
             </div>
         </div>
