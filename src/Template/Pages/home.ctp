@@ -205,12 +205,12 @@
             </div>
             <div class="col-md-4 col-sm-4 ">
                 <div>
-                    <a href="http://ElementalProtection.org">
-                        <img src="/img/sites/elemental.png" class="img-responsive " alt=""/>
-                        Elemental
+                    <a href="http://theEther.com">
+                        <img src="/img/sites/ether.png" class="img-responsive " alt=""/>
+                        Ether
                     </a>
                     <h5>
-                        A progressive, scientifically-backed sexual assault protection program
+                        An experimental "thought repository"
                     </h5>
                 </div>
             </div>
@@ -229,12 +229,13 @@
             </div>
             <div class="col-md-4 col-sm-4 ">
                 <div>
-                    <a href="http://theEther.com">
-                        <img src="/img/sites/ether.png" class="img-responsive " alt=""/>
-                        Ether
+                    <a href="https://phantomwatson.com/fun_facts">
+                        <img src="/img/sites/facts.png" class="img-responsive " alt=""/>
+                        Trivia Brawl Fun Facts
                     </a>
                     <h5>
-                        An experimental "thought repository"
+                        A presentation of "facts" displayed before each episode of Trivia Brawl begins. Click the
+                        logo to advance to the next fact, or wait for it to cycle automatically.
                     </h5>
                 </div>
             </div>
@@ -274,18 +275,6 @@
                         A game originally developed in 2002 for the students of Muncie Central High School and
                         resurrected in 2016. Search through over 120 rooms to investigate mysteries, defeat villains,
                         and save the school.
-                    </h5>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4 ">
-                <div>
-                    <a href="https://phantomwatson.com/fun_facts">
-                        <img src="/img/sites/facts.png" class="img-responsive " alt=""/>
-                        Trivia Brawl Fun Facts
-                    </a>
-                    <h5>
-                        A presentation of "facts" displayed before each episode of Trivia Brawl begins. Click the
-                        logo to advance to the next fact, or wait for it to cycle automatically.
                     </h5>
                 </div>
             </div>
