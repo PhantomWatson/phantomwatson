@@ -278,6 +278,18 @@
                     </h5>
                 </div>
             </div>
+            <div class="col-md-4 col-sm-4 ">
+                <div>
+                    <a href="http://bombasticator.phantomwatson.com/">
+                        <img src="/img/sites/bombasticator.png" class="img-responsive " alt=""/>
+                        Bombasticator
+                    </a>
+                    <h5>
+                        A translator from normal human speech to confusingly bombastic gibberish.
+                        Developed as an inside joke for a tabletop roleplaying game.
+                    </h5>
+                </div>
+            </div>
             <!--
             <a href="http://zombie.phantomwatson.com/">
                 <img src="/img/sites/zombie.png" class="img-responsive " alt=""/>
