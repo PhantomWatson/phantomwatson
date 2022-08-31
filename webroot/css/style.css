@@ -7267,3 +7267,6 @@ fieldset[disabled] #source button.focus {
 a.back {
   padding-left: 0;
 }
+#sites h5 {
+  line-height: 1.3;
+}
