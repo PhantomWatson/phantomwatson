@@ -229,7 +229,7 @@
             </div>
             <div class="col-md-4 col-sm-4 ">
                 <div>
-                    <a href="https://phantomwatson.com/fun_facts">
+                    <a href="http://funfacts.phantomwatson.com/">
                         <img src="/img/sites/facts.png" class="img-responsive " alt=""/>
                         Trivia Brawl Fun Facts
                     </a>
