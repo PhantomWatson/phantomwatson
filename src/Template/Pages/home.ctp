@@ -34,17 +34,15 @@
                 <i class="fa fa-code  fa-5x"></i>
                 <h4 class="head-set">WEB DEVELOPER</h4>
                 <p>
-                    I'm a senior full-stack web developer and project manager with 15+ years of experience planning,
-                    developing, and managing everything from complex, back-end-heavy websites to sophisticated
-                    one-page front-end applications. My back-end forte is PHP and the
-                    <a href="http://cakephp.org/">CakePHP framework</a>, but I'm always branching out into new
-                    technologies.
+                    I'm a senior full-stack web developer and project manager with <?= (int) date('Y') - 2003 ?>+
+                    years of experience planning, developing, and managing everything from complex, back-end-heavy
+                    websites to sophisticated one-page front-end applications.
                 </p>
 
                 <p>
-                    I work as a full-time web developer for
-                    <a href="http://cberdata.org">Ball State University's Center for Business and Economic Research</a>,
-                    but I also take freelance projects.
+                    Currently, I'm the Lead Software Engineer for the redevelopment of the
+                    <a href="https://www.ticketleap.com">Ticketleap</a> ticketing platform, but I also take contract
+                    work and maintain a collection of community websites and personal projects.
                 </p>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
@@ -59,11 +57,16 @@
                 </p>
                 <p>
                     I've hosted a live gameshow called <a href="http://facebook.com/TriviaBrawl">Trivia Brawl</a>
-                    since 2007, which is currently being hosted at
-                    <a href="http://www.whiterabbitcabaret.com/">The White Rabbit Cabaret</a> in Indianapolis.
-                    I'm available for hire for any of the stuff that I do, as is my body suspension troupe
-                    <a href="https://www.facebook.com/SubcultureSuspensionArts/">Subculture Suspension Arts</a> and
-                    burlesque troupe <a href="https://www.facebook.com/ProjectXBurlesque/">Project X Burlesque</a>.
+                    since 2007, most recently at The White Rabbit Cabaret in Indianapolis, but for the safety of myself,
+                    my loved ones, and my audience, my show production work is currently on pause due to the COVID-19
+                    pandemic. In the meantime, enjoy some
+                    <a href="https://funfacts.phantomwatson.com/">Trivia Brawl Fun Facts</a>.
+                </p>
+                <p>
+                    The body suspension troupe that I have performed with since 2007 is
+                    <a href="https://www.facebook.com/SubcultureSuspensionArts/">Subculture Suspension Arts</a>, and
+                    the burlesque troupe I've hosted and produced for since 2016 is
+                    <a href="https://www.facebook.com/ProjectXBurlesque/">Project X Burlesque</a>.
                 </p>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
@@ -78,9 +81,9 @@
                     <a href="https://www.facebook.com/Elemental-Sexual-Assault-Protection-222075131179887/">sexual assault protection</a>.
                 </p>
                 <p>
-                    I've also picked up instruction in about a dozen martial arts over the years, including arrest
-                    tactics during the years I worked in bail enforcement as a fugitive recovery agent, as well as
-                    tactical handgun combat.
+                    I've studied about a dozen other martial arts throughout my life, including arrest
+                    tactics during the years I worked as a fugitive recovery agent and tactical handgun combat, and on
+                    rare occasion I dabble in choreographing fights for film and stage productions.
                 </p>
             </div>
         </div>
@@ -229,7 +232,7 @@
             </div>
             <div class="col-md-4 col-sm-4 ">
                 <div>
-                    <a href="http://funfacts.phantomwatson.com/">
+                    <a href="https://funfacts.phantomwatson.com/">
                         <img src="/img/sites/facts.png" class="img-responsive " alt=""/>
                         Trivia Brawl Fun Facts
                     </a>
