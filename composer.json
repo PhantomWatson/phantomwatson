@@ -38,5 +38,10 @@
         "post-update-cmd": "App\\Console\\Installer::postUpdate"
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "cakephp/plugin-installer": true
+        }
+    }
 }
