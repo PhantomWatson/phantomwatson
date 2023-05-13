@@ -5,7 +5,7 @@
     "type": "project",
     "license": "MIT",
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.1",
         "cakephp/cakephp": "4.4.*",
         "cakephp/migrations": "^3.2",
         "cakephp/plugin-installer": "^1.3",
@@ -45,7 +45,6 @@
         "cs-fix": "phpcbf --colors -p src/ tests/",
         "stan": "phpstan analyse",
         "test": "phpunit --colors=always",
-        "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
     },
     "prefer-stable": true,
     "config": {
