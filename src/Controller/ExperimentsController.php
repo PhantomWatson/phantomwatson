@@ -31,7 +31,7 @@ class ExperimentsController extends AppController
     {
         $sourceUrl = 'http://theether.com/generator/getSource';
         $results = json_decode(file_get_contents($sourceUrl));
-        $this->viewBuilder()->layout('json');
+        $this->viewBuilder()->setLayout('json');
         $this->set('source', $results->source);
     }
 
