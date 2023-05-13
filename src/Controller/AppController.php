@@ -53,8 +53,8 @@ class AppController extends Controller
      */
     public function beforeRender(\Cake\Event\EventInterface $event)
     {
-        if (!array_key_exists('_serialize', $this->viewVars) &&
-            in_array($this->response->type(), ['application/json', 'application/xml'])
+        if (!array_key_exists('_serialize', $this->viewBuilder()->getVars()) &&
+            in_array($this->getResponse()->getType(), ['application/json', 'application/xml'])
         ) {
             $this->set('_serialize', true);
         }
