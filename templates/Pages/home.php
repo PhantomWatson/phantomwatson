@@ -303,6 +303,23 @@
             </h5>
             -->
         </div>
+        <div class="row text-center portfolio-item">
+            <div class="col-md-4 col-sm-4 ">
+            </div>
+            <div class="col-md-4 col-sm-4 ">
+                <div>
+                    <a href="http://murder.camp/">
+                        <img src="/img/sites/murder-camp.png" class="img-responsive " alt=""/>
+                        Murder Camp
+                    </a>
+                    <h5>
+                        A website for a very special summer camp.
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 ">
+            </div>
+        </div>
     </div>
 </section>
 
