@@ -54,11 +54,6 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/PhantomWatson" title="Twitter">
-                        <i class="fab fa-twitter" style="font-size: 20px;"></i>
-                    </a>
-                </li>
-                <li>
                     <a href="https://www.instagram.com/phantom_watson/" title="Instagram">
                         <i class="fab fa-instagram" style="font-size: 20px;"></i>
                     </a>
