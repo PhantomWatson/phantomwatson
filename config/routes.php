@@ -52,6 +52,8 @@ return static function (RouteBuilder $routes) {
          */
         $builder->connect('/', ['controller' => 'Pages', 'action' => 'home']);
 
+        $builder->redirect('/fun_facts', 'https://funfacts.phantomwatson.com/', ['status' => 301]);
+
         $builder->setExtensions(['json']);
 
         /*
